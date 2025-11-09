@@ -9,58 +9,73 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>HTML Assignment #3</h1>
+	<h1 >HTML Assignment #3</h1>
 		<!-- table 1 -->
-	<table id="table-1" border="1">
+	<table id="table-1" class="middle" border="1">
 		<tr>
 			<td id="t11">left</td>
 			<td id="t12">center</td>
-			<td id="t13">right</td>
+			<td id="t13" class="right">right</td>
+		</tr>
+
+		<tr class="center">
+			<td >left</td>
+			<td >center</td>
+			<td  class="right">right</td>
 		</tr>
 
 		<tr>
-			<td id="t21">left</td>
-			<td id="t22">center</td>
-			<td id="t23">right</td>
-		</tr>
-
-		<tr>
-			<td id="t31">left</td>
-			<td id="t32">center</td>
-			<td id="t33">right</td>
+			<td >left</td>
+			<td >center</td>
+			<td class="right">right</td>
 		</tr>
 	</table>
 
 	<!-- table 2 -->
-	<table id="table-2" border="1" style="height:100% width:100%">
-		<tr colspan="6"></tr>
+	<h2>table 2</h2>
+	<table border="1" id="table-2" class="middle">	
 		<tr>
-			<td rowspan="4"></td>
-			<td></td>
-			<td rowspan="2" colspan="3"></td>
-			<td ></td>
-			<td></td>
-			<td></td>
+			<td id="t21" colspan="6">this is single 1st row</td>
+		</tr>
+
+		<tr>
+			<td>2c1</td><td>2c2</td><td>2c3</td><td>2c4</td><td>2c5</td><td>2c6</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
+			<td>2c1</td><td>2c2</td><td>2c3</td><td>2c4</td><td>2c5</td><td>2c6</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
+			<td>2c1</td><td>2c2</td><td>2c3</td><td>2c4</td><td>2c5</td><td>2c6</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>2c1</td><td>2c2</td><td>2c3</td><td>2c4</td><td>2c5</td><td>2c6</td>
 		</tr>
 		<tr>
-			<td colspan="6"></td>
+			<td>2c1</td><td>2c2</td><td>2c3</td><td>2c4</td><td>2c5</td><td>2c6</td>
 		</tr>
 	</table>
+
+	<!-- table 3 -->
+	<h2>table 3</h2>
+	<table id="table-3" class="middle" border="1px">
+		<tr class="green">
+			<td>row 1</td>
+			<td>row 1</td>
+		</tr>
+
+		<tr>
+			<td id="t-image" colspan="2">
+				<img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="image attached" width="200">
+			</td>
+		</tr>
+
+		<tr class="blue">
+			<td>row 3</td>
+			<td>row 3</td>
+		</tr>
+	</table>
+	
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
